@@ -114,7 +114,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-     color: #212121;
+     color: #0d2c54;
      text-decoration: none!important;
      opacity: 1
 }
@@ -167,7 +167,7 @@ img {
 .btn-custom {
      margin-top: 20px;
      background-color: transparent !important;
-     border: 2px solid #ddd;
+     border: 2px solid #ffffff;
      padding: 12px 40px;
      font-size: 16px;
 }
@@ -175,7 +175,7 @@ img {
 .lead {
      font-size: 18px;
      line-height: 30px;
-     color: #767676;
+     color: #7fb800;
      margin: 0;
      padding: 0;
 }
@@ -221,11 +221,11 @@ button {
 }
 
 .light_silver {
-     background: #f9f9f9;
+     background: #ffb400;
 }
 
 .theme_bg {
-     background: #38c8a8;
+     background: #ffb400;
 }
 
 .margin_top_30 {
@@ -310,7 +310,7 @@ button {
 }
 
 .sign_btn a:hover {
-     color: #0aec98;
+     color: #ffb400;
 }
 
 
@@ -355,7 +355,8 @@ button {
      color: #2d2c2c;
      font-size: 67px;
      line-height: 90px;
-     padding-bottom: 70px;
+     padding-top: 70px;
+     padding-bottom: 30px;
      font-weight: bold;
 }
 
@@ -367,7 +368,7 @@ button {
 
 .text-bg span {
      font-family: 'Baloo Chettan', cursive;
-     color: #2bcc91;
+     color: #00a6ed;
      font-size: 40px;
      line-height: 77px;
      font-weight: bold;
@@ -389,7 +390,7 @@ button {
 }
 
 .text-bg a:hover {
-     background-color: #2bcc91;
+     background-color: #ffb400;
      color: #fff;
      transition: ease-in all 0.5s;
      border-radius: 26px;
@@ -397,17 +398,17 @@ button {
 
 .text-img {
      height: 750px;
-     background: linear-gradient(to bottom, #0aec98 0%, #2bcc91 100%);
+     background: linear-gradient(to bottom, #ffb400 0%, #ffb300f3 100%);
      border-radius: 322px 0px 0px 380px;
      padding: 132px 20px 0px 50px;
 }
 
 .text-img figure {
-     margin: 0px;
+     margin: 0px;     
 }
 
 .text-img figure img {
-     width: 100%;
+     width: 1000px;
 }
 
 .text-img figure {position: relative;}
@@ -424,7 +425,7 @@ button {
     color: #fff;
 padding: 7px 12px;
 font-size: 21px;
-    border: #2bcc91 solid 7px;}
+    border: #ffb400 solid 7px;}
 
 
 
@@ -520,7 +521,7 @@ font-size: 21px;
 
 .best_box {
      text-align: center;
-     background-color: #2bcc91;
+     background-color: #ffb400;
      border-radius: 20px;
      padding: 30px 20px;
      margin-bottom: 30px;
@@ -552,7 +553,7 @@ font-size: 21px;
 }
 
 .best .read_more:hover {
-     background-color: #2bcc91;
+     background-color: #ffb400;
 }
 
 
@@ -628,7 +629,7 @@ font-size: 21px;
 }
 
 .request .main_form .send_btn:hover {
-     background-color: #2bcc91;
+     background-color: #ffb400;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
@@ -673,7 +674,7 @@ font-size: 21px;
 /** two_box section section **/
 
 .two_box {
-     background: #2bcc91;
+     background: #ffb400;
      margin-top: 90px;
      padding: 0 40px;
 }
@@ -683,7 +684,9 @@ font-size: 21px;
 }
 
 .two_box figure img {
-     width: 100%;
+     margin-top: 90px;
+     width: 300px;
+     margin-bottom: 90px;
 }
 
 .two_box h2 {
@@ -742,7 +745,7 @@ font-size: 21px;
 
 .testimonial_Carousel .test_box h3 {
      font-size: 30px;
-     color: #2bcc91;
+     color: #ffb400;
      line-height: 32px;
      display: inline-block;
      padding-bottom: 40px;
@@ -762,7 +765,7 @@ font-size: 21px;
 .testimonial_Carousel .carousel-indicators li {
      width: 15px;
      height: 13px;
-     background: #41c365;
+     background: #ffb400;
 }
 
 .testimonial_Carousel .carousel-indicators li.active {
@@ -781,7 +784,7 @@ font-size: 21px;
 /** footer **/
 
 .multi {
-     color: #2bcc91;
+     color: #ffb400;
      font-weight: bold;
      font-size: 40px;
 }
@@ -829,7 +832,7 @@ font-size: 21px;
 }
 
 .copyright a:hover {
-     color: #2bcc91;
+     color: #ffb400;
 }
 
 
