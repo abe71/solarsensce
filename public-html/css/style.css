@@ -339,7 +339,8 @@ button {
      font-weight: bold;
      text-transform: uppercase;
      color: #fff;
-     line-height: 40px;
+     line-height: 255px;
+     padding-bottom: 50px;
 }
 
 .text-bg {
