@@ -34,22 +34,27 @@
       <script>
          $(document).ready(function(){
            $("form").submit(function(){
-             alert("Submitted");
-             // action="http://solarsensce.ddns.net:8081/contact"
-            var formData = new FormData($(this)[0]);
-            $.ajax({
-               type: "POST",
-               url: 'http://solarsensce.ddns.net:8081/contact',
-               data: formData,
-               processData: false,
-               contentType: false,
-               dataType: "json",
-               success: function(data, textStatus, jqXHR) {
-                  alert('Message sent');
-               },
-               error: function(data, textStatus, jqXHR) {
-                  alert('Something went wrong, try again later')
-               },
+               alert("Submitted");
+               // action="http://solarsensce.ddns.net:8081/contact"
+               var formData = new FormData($(this)[0]);
+               console.log('formData: ', formData);
+               $.ajax({
+                  type: "POST",
+                  url: 'http://solarsensce.ddns.net:8081/contact',
+                  data: formData,
+                  processData: false,
+                  contentType: false,
+                  dataType: "json",
+                  success: function(data, textStatus, jqXHR) {
+                     console.log('Message sent');
+                     alert('Message sent');
+                  },
+                  error: function(data, textStatus, jqXHR) {
+                     console.log('Something went wrong, try again later');
+                     alert('Something went wrong, try again later');
+                  }
+               });
+            });
          });
          </script>
    </head>
