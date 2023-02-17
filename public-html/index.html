@@ -220,12 +220,18 @@
                                       url = $form.attr('action');
                   
                                   /* Send the data using post */
-                                  var posting = $.post(url, {
+                                  var posting = $.post({
+                                    url, 
+                                    data :{
                                       name,
                                       phone_number,
                                       email,
                                       message
-                                  });
+                                    },
+                                    headers: {
+                                       "Access-Control-Allow-Origin": "*"
+                                    }
+                                  })
 
                   
                                   /* Put the results in a div */
