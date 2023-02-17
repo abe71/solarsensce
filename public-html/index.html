@@ -217,6 +217,11 @@
                                       message = $form.find('input[name="message"]').val(),
                                       url = $form.attr('action');
                   
+
+                                  const success = function() {
+                                    alert('Message sent');
+                                  }
+                                  
                                   /* Send the data using post */
                                   var posting = $.post({
                                     url, 
@@ -224,12 +229,10 @@
                                       name,
                                       phone_number,
                                       email,
-                                      message
+                                      message,
+                                      success
                                     }
-                                  },
-                                  function() {
-                                    alert( "success" );
-                                  })
+                                  });
                               });
                           </script>
                         </div>
