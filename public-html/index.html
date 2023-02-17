@@ -221,7 +221,7 @@
                                   const success = function() {
                                     alert('Message sent');
                                   }
-                                  
+
                                   /* Send the data using post */
                                   var posting = $.post({
                                     url, 
@@ -229,10 +229,9 @@
                                       name,
                                       phone_number,
                                       email,
-                                      message,
-                                      success
+                                      message
                                     }
-                                  });
+                                  }).then(function(){alert('Message sent')}, function(){alert('Message could not be sent, try again later')});
                               });
                           </script>
                         </div>
