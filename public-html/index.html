@@ -202,11 +202,6 @@
                                  </div>
                               </div>
                            </form>
-
-                           <div id="restult" class="titlepage">
-                           </div>
-
-
                            <script>
                               /* attach a submit handler to the form */
                               $("#contact_form").submit(function(event) {
@@ -236,11 +231,11 @@
                   
                                   /* Put the results in a div */
                                   posting.done(function(data) {
-                                      $("#result").text('Message successfully sent');
+                                    alert('Message successfully sent');
                                   });
 
                                   posting.fail(function() {
-                                    $('#result').text('failed, message not sent');
+                                    alert('failed, message not sent');
                                  });
                               });
                           </script>
