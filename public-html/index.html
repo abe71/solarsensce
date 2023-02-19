@@ -218,10 +218,6 @@
                                       url = $form.attr('action');
                   
 
-                                  const success = function() {
-                                    alert('Message sent');
-                                  }
-
                                   /* Send the data using post */
                                   var posting = $.post({
                                     url, 
@@ -232,6 +228,7 @@
                                       email,
                                     }
                                   });
+                                  posting.then(alert('Message sent'), alert('Failed to send the message, try again later'));
                               });
                           </script>
                         </div>
