@@ -229,7 +229,9 @@
                                     type: "POST",
                                     url,
                                     data,
-                                    success: alert(msg)
+                                    success: function(msg){
+                                       alert(msg);
+                                    }
                                   });
                               });
                           </script>
