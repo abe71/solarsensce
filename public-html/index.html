@@ -216,19 +216,21 @@
                                       email = $form.find('input[name="email"]').val(),
                                       message = $form.find('textarea[name="message"]').val(),
                                       url = $form.attr('action');
-                  
-
-                                  /* Send the data using post */
-                                  var posting = $.post({
-                                    url, 
-                                    data: {
+                                 const data = {
                                       name,
                                       phone_number,
                                       message,
                                       email,
-                                    }
+                                    };
+                  
+
+                                  /* Send the data using post */
+                                  $.ajax({
+                                    type: "POST",
+                                    url,
+                                    data,
+                                    success: alert(msg)
                                   });
-                                  posting.then(alert('Message sent'), alert('Failed to send the message, try again later'));
                               });
                           </script>
                         </div>
